@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Organization - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Roboto', sans-serif; background-color: #f4f7fa; color: #333; }
+        .navbar { background: linear-gradient(90deg, #007bff, #0056b3); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .navbar-brand { font-weight: 700; color: white !important; }
+        .nav-link { color: white !important; transition: color 0.3s; }
+        .nav-link:hover { color: #cce7ff !important; }
+        .hero { background: linear-gradient(135deg, #007bff, #00d4ff); color: white; padding: 100px 0; text-align: center; position: relative; overflow: hidden; }
+        .hero::before { content: ''; background: url('https://via.placeholder.com/1920x600?text=Organization+Hero+Image') no-repeat center/cover; position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.3; z-index: -1; }
+        .hero h1 { font-size: 3rem; font-weight: 700; margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; }
+        .section { padding: 60px 0; }
+        .card { border: none; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .member-list th { background-color: #007bff; color: white; }
+        .btn-primary { background: #007bff; border: none; transition: background 0.3s; }
+        .btn-primary:hover { background: #0056b3; }
+        footer { background: #343a40; color: white; padding: 20px 0; }
+        footer p { margin: 0; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-building"></i> Our Organization</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="members.html"><i class="fas fa-users"></i> Members</a></li>
+                    <li class="nav-item"><a class="nav-link" href="work-program.html"><i class="fas fa-project-diagram"></i> Work Program</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Our Organization</h1>
+            <p>We are dedicated to [brief mission statement, e.g., fostering community growth and innovation].</p>
+            <a href="about.html" class="btn btn-light btn-lg">Learn More</a>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2023 Our Organization. All rights reserved. | <a href="#" style="color: #cce7ff;">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
